@@ -1,0 +1,60 @@
+.App {    
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Content{
+  display:flex;
+  justify-content: center;
+}
+
+.footer > span > a {
+  color:thistle;  
+}
+
+.footer > span > a:hover {
+  color:burlywood;
+  
+}
+
+.footer{
+  background-color: #282c34; 
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  font-weight: 500;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34; 
+  height:80px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  font-weight: 725;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

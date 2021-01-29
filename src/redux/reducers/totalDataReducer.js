@@ -4,7 +4,7 @@ const initialState={
 
 const totalDataReducer = (state=initialState,action)=>{
 
-    console.log(action);
+    //console.log(action);
     switch(action.type){
         case 'ADD_DATA':
             return {

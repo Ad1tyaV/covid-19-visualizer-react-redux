@@ -3,11 +3,18 @@ import { Provider } from 'react-redux';
 import newStore from './redux/store/stateStore';
 import StateDataWithoutHooks from './components/StateDataWithoutHooks';
 import NavBarBS from './components/NavBarBS';
+import {useEffect} from 'react';
 
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Covid-19 Visualizer"
+ }, []);
+
   return (
+   
     <Provider store={newStore}>      
       <div className="App">    
         {/* <NavBarBS/>                 */}

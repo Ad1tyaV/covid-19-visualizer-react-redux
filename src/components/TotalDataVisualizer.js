@@ -6,7 +6,7 @@ function TotalDataVisualizer(props) {
     const [plotData, setplotData] = useState(null)
 
     useEffect(() => {       
-        console.log(props.data);
+        //console.log(props.data);
         var newList=[]
         props.data.map((element)=>(
             newList.push({x:element.date, y:element.positive})

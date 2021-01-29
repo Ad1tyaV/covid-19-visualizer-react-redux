@@ -27,12 +27,12 @@ export default function LineChart(props) {
         newGraphObject.labels=newGraphObject.labels.reverse();
         dataArray=dataArray.reverse();
         newGraphObject.datasets.push({label:`${dataLength} days data`,data:dataArray,borderColor: "rgba(75,192,192,1)",backgroundColor:['rgba(75,192,192,0.2)']});
-        console.log(newGraphObject);
+        // console.log(newGraphObject);
         setGraphObject(newGraphObject);
         var pct=0;
         if(dataArray[0]==="0"){
-            console.log(dataArray[dataArray.length-1]);
-            console.log(dataArray[0]);
+            // console.log(dataArray[dataArray.length-1]);
+            // console.log(dataArray[0]);
             pct=((dataArray[dataArray.length-1]-dataArray[0])/(parseInt(dataArray[0])+1))*100;
         }
         else{                        

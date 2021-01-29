@@ -4,10 +4,10 @@ const initialState={
 
 const stateSelectReducer = (state=initialState,action) =>{
     //console.log(state);
-    console.log(action);
+    //console.log(action);
     switch(action.type){
         case 'update':
-            console.log(action.payload);
+            //console.log(action.payload);
             return{                
                 ...initialState,stateData:action.payload
             }

@@ -34,7 +34,7 @@ function StateDataWithoutHooks(props) {
             </center>
             <br/><br/>
             <React.Fragment>
-            {console.log(props)}            
+            {/* {console.log(props)}             */}
             {props.apiData  && <CaseVisualize data={props.apiData}/>}         
             {                      
                 props.totalData && <TotalDataVisualizer data={props.totalData}/>

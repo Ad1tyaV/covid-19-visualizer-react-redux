@@ -1,6 +1,6 @@
 export const update = (_state) =>{
-    console.log(_state);
-    console.log('here!');
+    // console.log(_state);
+    // console.log('here!');
     return async (dispatch)=>{                
         //const data = await fetch(`https://api.covidtracking.com/v1/states/${_state}/current.json`)
         const data = await fetch(`https://api.covidtracking.com/v1/states/${_state}/daily.json`);
